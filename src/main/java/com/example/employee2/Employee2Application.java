@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.FeignAutoConfiguration;
 
 @SpringBootApplication
 @EnableFeignClients
-@ImportAutoConfiguration({FeignAutoConfiguration.class})
+//@ImportAutoConfiguration({FeignAutoConfiguration.class})
 public class Employee2Application {
 
 	public static void main(String[] args) {
